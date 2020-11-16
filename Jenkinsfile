@@ -26,5 +26,8 @@ pipeline {
 		failure {
                         echo 'i run you fail'
                         }
+		changed {
+			echo ' changed status'
+			}
 	}
 }
